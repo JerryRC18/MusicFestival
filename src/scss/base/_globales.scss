@@ -10,6 +10,10 @@ body{
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
     margin: 0;
+
+    &.fijar-body{
+        overflow: hidden;
+    }
 }
 p{
     font-size: 2rem;
@@ -38,5 +42,7 @@ h3{
 }
 img{
     max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
 }
